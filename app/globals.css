@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Brotherhood';
+  src: url('/fonts/Brotherhood.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Belleza';
+  src: url('/fonts/Belleza.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gwendolyn';
+  src: url('/fonts/Gwendolyn.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --background: #FBF4FF;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #FBF4FF;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@media (max-width: 768px) {
+  .backgroundImage {
+    max-width: 300%;
+  }
+
+  .overlayText {
+    margin: 0.5rem 0;
+    line-height: 0.8;
+  }
+
+  .twoColumnContainer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .leftImage {
+    min-width: 200%;
+  }
+}
+
+@media (min-width: 769px) {
+  .leftImage {
+    object-fit: cover;
+    max-height: 100%;
+    min-width: 240%;
+  }
+}
+
+.heroContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.backgroundImage {
+  object-fit: cover;
+  max-height: 100%;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.overlayText {
+  color: black;
+  text-align: center;
+  font-family: 'Gwendolyn', sans-serif;
+}
+
+.twoColumnContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.leftContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rightText {
+  color: black;
+  text-align: center;
+  font-family: 'Gwendolyn', sans-serif;
+}
+
+.leftText {
+  color: black;
+  text-align: center;
+  font-family: 'Belleza', sans-serif;
+  line-height: 1.3;
+  white-space: nowrap;
+}
