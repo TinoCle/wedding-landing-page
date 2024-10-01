@@ -2,7 +2,7 @@ import React from 'react';
 
 function Date() {
   return (
-    <div className="twoColumnContainer">
+    <div className="columnsContainer">
       <div className="column">
         <div className="leftContent">
           <img src="/flowers2.png" alt="Centered Image" className="leftImage" />

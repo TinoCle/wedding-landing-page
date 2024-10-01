@@ -1,9 +1,9 @@
 "use client"
 
+import FullPage, {FullPageSections, FullpageSection, FullpageNavigation} from '@ap.cx/react-fullpage'
 import Hero from "./components/Hero";
 import Date from "./components/Date";
-
-import FullPage, {FullPageSections, FullpageSection, FullpageNavigation} from '@ap.cx/react-fullpage'
+import Countdown from "./components/Countdown";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
           <Date />
         </FullpageSection>
         <FullpageSection>
-          <Hero />
+          <Countdown />
         </FullpageSection>
       </FullPageSections>
       <FullpageNavigation />
