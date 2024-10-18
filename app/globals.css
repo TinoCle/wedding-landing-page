@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: 'Belleza';
-  src: url('/belleza.ttf') format('truetype');
+  src: url('../public/belleza.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

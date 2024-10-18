@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Boda Mai y Tino",
-  description: "Toda la info que vas a necesitar si venís a nuestra boda",
+  description: "Toda la info que vas a necesitar para nuestra boda",
 };
 
 export default function RootLayout({ children }) {
