@@ -60,7 +60,7 @@ body {
   .time {
     color: black;
     text-align: center;
-    font-family: 'Belleza', sans-serif;
+    /* font-family: 'Belleza', sans-serif; */
     line-height: 1;
     white-space: nowrap;
   }
