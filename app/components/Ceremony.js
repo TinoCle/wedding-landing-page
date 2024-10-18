@@ -4,7 +4,7 @@ const Ceremony = () => {
   return (
     <div className="relative flex flex-col justify-around items-center w-screen h-screen py-16">
       <img
-        src="/flowers4.png"
+        src="./flowers4.png"
         alt="Background"
         className="absolute top-0 left-[-7rem] w-[50vw] h-[50vh] min-w-[300px] min-h-[300px] object-contain z-[-1]"
       />

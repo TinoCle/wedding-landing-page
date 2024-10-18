@@ -5,7 +5,7 @@ function Date() {
     <div className="columnsContainer">
       <div className="column">
         <div className="leftContent">
-          <img src="/flowers2.png" alt="Centered Image" className="leftImage" />
+          <img src="./flowers2.png" alt="Centered Image" className="leftImage" />
           <div className="textContainer">
             <h1 className="leftText text-7xl sm:text-7xl md:text-9xl">25</h1>
             <h1 className="leftText text-5xl sm:text-5xl md:text-7xl">de enero</h1>

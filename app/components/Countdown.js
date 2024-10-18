@@ -47,7 +47,7 @@ const Countdown = () => {
       height: '100vh'
     }}>
       <img
-        src="/flowers3.png"
+        src="./flowers3.png"
         alt="Background"
         style={{
           position: 'absolute',
