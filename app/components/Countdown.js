@@ -63,7 +63,7 @@ const Countdown = () => {
       <div className="timeColumnsContainer">
         <div className="timeColumn">
           <div className="textContainer">
-            <h1 className="time" style={{ fontSize: '6rem', fontFamily: './Belleza.ttf' }}>{timeLeft.days.toString().padStart(2, '0')}</h1>
+            <h1 className="time" style={{ fontSize: '6rem' }}>{timeLeft.days.toString().padStart(2, '0')}</h1>
             <h1 className="time text-3xl sm:text-3xl md:text-4xl">{timeLeft.days === 1 ? 'Día' : 'Días'}</h1>
           </div>
         </div>
