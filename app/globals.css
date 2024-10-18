@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Brotherhood';
-  src: url('/brotherhood.ttf') format('truetype');
+  src: url('../public/brotherhood.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'Gwendolyn';
-  src: url('/gwendolyn.ttf') format('truetype');
+  src: url('../public/gwendolyn.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
