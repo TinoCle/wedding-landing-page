@@ -7,6 +7,7 @@ import Countdown from "./components/Countdown";
 import Ceremony from './components/Ceremony';
 import Celebration from './components/Celebration';
 import Dresscode from './components/Dresscode';
+import Songs from './components/Songs';
 
 export default function Home() {
   return (
@@ -29,6 +30,9 @@ export default function Home() {
         </FullpageSection>
         <FullpageSection>
           <Dresscode />
+        </FullpageSection>
+        <FullpageSection>
+          <Songs />
         </FullpageSection>
       </FullPageSections>
       <FullpageNavigation />
