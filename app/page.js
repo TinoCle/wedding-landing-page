@@ -6,6 +6,7 @@ import Date from "./components/Date";
 import Countdown from "./components/Countdown";
 import Ceremony from './components/Ceremony';
 import Celebration from './components/Celebration';
+import Dresscode from './components/Dresscode';
 
 export default function Home() {
   return (
@@ -25,6 +26,9 @@ export default function Home() {
         </FullpageSection>
         <FullpageSection>
           <Celebration />
+        </FullpageSection>
+        <FullpageSection>
+          <Dresscode />
         </FullpageSection>
       </FullPageSections>
       <FullpageNavigation />
