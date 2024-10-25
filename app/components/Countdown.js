@@ -49,15 +49,7 @@ const Countdown = () => {
       <img
         src="./flowers3.png"
         alt="Background"
-        style={{
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          width: '100vw',
-          height: '100vh',
-          objectFit: 'cover',
-          zIndex: -1,
-        }}
+        className="image-cover-all"
       />
       <h1 className="overlayText" style={{ fontSize: '8rem', marginBottom: '4rem' }}>Faltan</h1>
       <div className="timeColumnsContainer">
