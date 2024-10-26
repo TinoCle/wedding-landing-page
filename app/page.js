@@ -8,6 +8,7 @@ import Ceremony from './components/Ceremony';
 import Celebration from './components/Celebration';
 import Dresscode from './components/Dresscode';
 import Songs from './components/Songs';
+import Gifts from './components/Gifts';
 
 
 export default function Home() {
@@ -34,6 +35,9 @@ export default function Home() {
         </FullpageSection>
         <FullpageSection>
           <Songs />
+        </FullpageSection>
+        <FullpageSection>
+          <Gifts />
         </FullpageSection>
       </FullPageSections>
       <FullpageNavigation />
