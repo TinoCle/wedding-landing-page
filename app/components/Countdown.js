@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-export const runtime = "edge";
-
 const Countdown = () => {
   const targetDate = new Date('2025-01-25T00:00:00');
   const [timeLeft, setTimeLeft] = useState({

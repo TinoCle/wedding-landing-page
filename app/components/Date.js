@@ -1,7 +1,5 @@
 import React from 'react';
 
-export const runtime = "edge";
-
 function Date() {
   return (
     <div className="columnsContainer">
