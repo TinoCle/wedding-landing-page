@@ -9,7 +9,7 @@
     "lint": "next lint",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d .next",
-    "pages:build": "npx @cloudflare/next-on-pages"
+    "pages:build": "pnpm dlx @cloudflare/next-on-pages"
   },
   "dependencies": {
     "@ap.cx/react-fullpage": "^0.3.0",
