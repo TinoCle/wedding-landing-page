@@ -9,6 +9,8 @@ import Celebration from './components/Celebration';
 import Dresscode from './components/Dresscode';
 import Songs from './components/Songs';
 
+export const runtime = "edge";
+
 export default function Home() {
   return (
     <FullPage>

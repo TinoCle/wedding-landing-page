@@ -1,5 +1,8 @@
 import React from 'react';
 
+export const runtime = "edge";
+
+
 const Celebration = () => {
   return (
     <div className="relative flex flex-col justify-around items-center w-screen h-screen py-16">
