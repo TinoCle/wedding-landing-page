@@ -15,7 +15,7 @@ const Dresscode = () => {
       <img
         src="./dresscode.png"
         alt="Background"
-        className="image-cover-all"
+        className="image-cover-top"
       />
       <h1 className="overlayText" style={{ fontSize: '8rem'}}>Dresscode</h1>
       <p className="leftText text-4xl sm:text-5xl md:text-5xl lg:text-5xl text-center">

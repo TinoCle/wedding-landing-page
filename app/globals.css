@@ -197,7 +197,7 @@ body {
   border-radius: 8px;
 }
 
-.image-cover-all {
+.image-cover-top {
   position: absolute;
   top: 0;
   left: 0;
@@ -205,5 +205,16 @@ body {
   height: 100vh;
   object-fit: cover;
   object-position: top;
+  z-index: -1;
+}
+
+.image-cover-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: bottom;
   z-index: -1;
 }

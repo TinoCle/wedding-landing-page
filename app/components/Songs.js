@@ -15,7 +15,7 @@ const Songs = () => {
       <img
         src="./songs.png"
         alt="Background"
-        className="image-cover-all"
+        className="image-cover-bottom"
       />
       <h1 className="overlayText" style={{ fontSize: '8rem', marginBottom: '2rem' }}>Canciones infaltables</h1>
       <a
