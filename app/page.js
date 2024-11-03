@@ -10,6 +10,7 @@ import Dresscode from './components/Dresscode';
 import Songs from './components/Songs';
 import Gifts from './components/Gifts';
 import Accomodations from './components/Accomodations';
+import Form from './components/Form';
 
 
 export default function Home() {
@@ -39,6 +40,9 @@ export default function Home() {
         </FullpageSection>
         <FullpageSection>
           <Accomodations />
+        </FullpageSection>
+        <FullpageSection>
+          <Form />
         </FullpageSection>
         <FullpageSection>
           <Gifts />
