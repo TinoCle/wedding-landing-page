@@ -11,6 +11,7 @@ import Songs from './components/Songs';
 import Gifts from './components/Gifts';
 import Accomodations from './components/Accomodations';
 import Form from './components/Form';
+import Food from './components/Food';
 
 
 export default function Home() {
@@ -43,6 +44,9 @@ export default function Home() {
         </FullpageSection>
         <FullpageSection>
           <Form />
+        </FullpageSection>
+        <FullpageSection>
+          <Food />
         </FullpageSection>
         <FullpageSection>
           <Gifts />
