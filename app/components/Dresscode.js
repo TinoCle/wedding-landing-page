@@ -17,7 +17,7 @@ const Dresscode = () => {
         alt="Background"
         className="image-cover-bottom"
       />
-      <h1 className="overlayText text-8xl sm:text-6xl md:text-9xl lg:text-9xl xl:text-8xl mb-8">
+      <h1 className="overlayText text-8xl sm:text-6xl md:text-9xl lg:text-9xl xl:text-8xl mt-8 mb-8">
         Dresscode
       </h1>
       <p className="leftText text-4xl sm:text-5xl md:text-5xl lg:text-5xl text-center">

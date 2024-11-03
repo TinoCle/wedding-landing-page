@@ -78,6 +78,14 @@ body {
   .leftImage {
     min-width: 200%;
   }
+
+  .image-cover-top {
+    height: 120vh;
+  }
+
+  .image-cover-bottom {
+    height: 120vh;
+  }
 }
 
 @media (min-width: 769px) {
@@ -212,7 +220,7 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   object-fit: cover;
   object-position: top;
   z-index: -1;
@@ -223,7 +231,7 @@ body {
   bottom: 0;
   left: 0;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   object-fit: cover;
   object-position: bottom;
   z-index: -1;
