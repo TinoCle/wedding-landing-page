@@ -11,7 +11,7 @@ const Ceremony = () => {
       <h1 className="overlayText text-8xl sm:text-7xl md:text-9xl lg:text-9xl text-center md:pl-[10rem] lg:pl-[18rem]">
         Ceremonia Religiosa
       </h1>
-      <p className="leftText text-3xl sm:text-3xl md:text-6lg lg:text-5xl text-center">
+      <p className="leftText text-xl sm:text-3xl md:text-6lg lg:text-5xl text-center">
         Lugar: Parroquia San Pedro Apóstol<br /><br />
         Hora: 19:30
       </p>

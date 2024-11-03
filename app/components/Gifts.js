@@ -10,7 +10,10 @@ const Gifts = () => {
           Su presencia es nuestro mejor regalo.
         </h1>
         <h1 className="leftText text-2xl sm:text-2xl md:text-2xl lg:text-2xl mt-1 text-center">
-          Si prefieren un obsequio virtual, nuestro alias es:
+          Si prefieren un obsequio virtual,
+        </h1>
+        <h1 className="leftText text-2xl sm:text-2xl md:text-2xl lg:text-2xl mt-1 text-center">
+          nuestro alias es:
         </h1>
         <h1 className="leftText text-4xl sm:text-4xl md:text-4xl lg:text-4xl mt-4 text-center">
           boda.mai.tino

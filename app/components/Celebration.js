@@ -12,7 +12,7 @@ const Celebration = () => {
       <h1 className="overlayText text-8xl sm:text-7xl md:text-9xl lg:text-9xl text-center md:pr-[10rem] lg:pr-[18rem]">
         Celebración
       </h1>
-      <p className="leftText text-3xl sm:text-3xl md:text-6lg lg:text-5xl text-center">
+      <p className="leftText text-xl sm:text-3xl md:text-6lg lg:text-5xl text-center">
         Lugar: O’Clock Río Tercero<br /><br />
         Hora: 20:30
       </p>

@@ -17,7 +17,7 @@ const Songs = () => {
         alt="Background"
         className="image-cover-bottom"
       />
-      <h1 className="overlayText text-9xl sm:text-6xl md:text-9xl lg:text-9xl xl:text-8xl mb-8">
+      <h1 className="overlayText text-8xl sm:text-6xl md:text-9xl lg:text-9xl xl:text-8xl mb-8">
         Canciones infaltables
       </h1>
       <a
