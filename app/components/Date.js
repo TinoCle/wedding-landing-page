@@ -14,8 +14,8 @@ function Date() {
       </div>
         <div className="column">
         <div className="textContainer">
-          <h1 className="overlayText" style={{ fontSize: '8rem' }}>Save</h1>
-          <h1 className="overlayText" style={{ fontSize: '8rem' }}>the date!</h1>
+          <h1 className="overlayText text-8xl sm:text-8xl md:text-9xl lg:text-9xl xl:text-9xl mb-8">Save</h1>
+          <h1 className="overlayText text-8xl sm:text-8xl md:text-9xl lg:text-9xl xl:text-9xl mb-8">the date!</h1>
         </div>
       </div>
     </div>

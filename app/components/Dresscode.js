@@ -25,7 +25,7 @@ const Dresscode = () => {
         className="leftText text-2xl sm:text-3xl md:text-3xl lg:text-3xl text-center "
         style={{ paddingTop: '2rem' }}
       >
-        → Color blanco reservado para la novia ←
+        👉🏼 Color blanco reservado para la novia 👈🏼
       </p>
     </div>
   );
