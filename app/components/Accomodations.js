@@ -15,7 +15,7 @@ const Accomodations = () => {
       <img
         src="./accomodations.png"
         alt="Background"
-        className="image-cover-top"
+        className="image-cover-bottom"
       />
       <h1 className="overlayText text-8xl sm:text-7xl md:text-9xl lg:text-9xl xl:text-8xl mb-8">
         ¿Necesitás alojamiento?

@@ -15,7 +15,7 @@ const Songs = () => {
       <img
         src="./songs.png"
         alt="Background"
-        className="image-cover-bottom"
+        className="image-cover-top"
       />
       <h1 className="overlayText text-8xl sm:text-8xl md:text-9xl lg:text-9xl xl:text-8xl mb-8">
         Canciones infaltables
