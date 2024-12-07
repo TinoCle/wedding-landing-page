@@ -21,7 +21,7 @@ const Songs = () => {
         Canciones infaltables
       </h1>
       <a
-        href="https://open.spotify.com/playlist/1BpMO0WFfk4oGrSpGelhGN?si=1zFlxjE4QHSZiacAj7LqEA&pt=bc5270324badf337074a57728d538b05&pi=u-a5iTHqxrQpO4"
+        href="https://open.spotify.com/playlist/1BpMO0WFfk4oGrSpGelhGN?si=EnBNrI0jQ8aZXM2TrdukIQ&pt=eb753d99eda0c394b3928495ff91b2ff&pi=u-QcsQuNv7RKeA"
         className="button-style mt-9"
         target="_blank"
       >
