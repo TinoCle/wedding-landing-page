@@ -9,11 +9,17 @@ const Food = () => {
         <h1 className="leftText text-2xl sm:text-2xl md:text-2xl lg:text-2xl mt-9 text-center">
           La tarjeta incluye comida y bebida toda la noche
         </h1>
-        <h1 className="leftText text-2xl sm:text-2xl md:text-2xl lg:text-2xl mt-1 text-center">
-          45 días antes de la fecha confirmaremos el precio final
+        <h1 className="leftText text-2xl sm:text-2xl md:text-2xl lg:text-2xl mt-6 text-center">
+          Adultos: <b>$37.500</b>
         </h1>
         <h1 className="leftText text-2xl sm:text-2xl md:text-2xl lg:text-2xl mt-1 text-center">
-          El precio estimado es de $30.000 por persona
+          Menores de 12 años: <b>$17.000</b>
+        </h1>
+        <h1 className="leftText text-2xl sm:text-2xl md:text-2xl lg:text-2xl mt-6 text-center">
+          Se puede transferir al alias: <b>boda.mai.tino</b>
+        </h1>
+        <h1 className="leftText text-2xl sm:text-2xl md:text-2xl lg:text-2xl mt-6 text-center">
+          Tenés tiempo hasta el 10 de enero!
         </h1>
       </div>
     </div>
