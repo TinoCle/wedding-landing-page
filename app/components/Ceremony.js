@@ -13,7 +13,7 @@ const Ceremony = () => {
       </h1>
       <p className="leftText text-xl sm:text-3xl md:text-6lg lg:text-5xl text-center">
         Lugar: Parroquia San Pedro Apóstol<br /><br />
-        Hora: 19:30
+        Hora: 18:30
       </p>
       <a
         href="https://maps.app.goo.gl/NVAPAxZ5fj4JN4mx7"
